@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  float: left;
+}
+
+.container1 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  float: right;
+}
+
+.card-text,
+.card-title {
+  justify-items: center;
+  align-items: center;
+  display: flex;
+}
+
+.negocios {
+  background-color: rgb(58, 56, 56);
+  background-size: contain;
+  text-align: center;
+  border-radius: 3px 3px 0 0;
+}
+
+.card-text {
+  padding-left: 23%;
+}
+
+.card-title {
+  padding-left: 33%;
+}
+
+.descuento {
+  background-color: rgb(135, 241, 135);
+  background-size: cover;
+  border-bottom: 1px;
+  justify-items: center;
+  align-items: center;
+  padding-left: 25%;
+}
+
+.descuento1 {
+  background-color: grey;
+  background-size: cover;
+  border-bottom: 1px;
+  justify-items: center;
+  align-items: center;
+  padding: 4% 25% 5% 28%;
+  border-radius: 0 0 3px 3px;
+  height: 3rem;
+  font-size: small;
+}
+
+.boton {
+  border-radius: 10%;
+}
+
+.beneficios {
+  padding: 0 0 5% 25%;
+}
